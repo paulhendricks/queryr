@@ -30,3 +30,20 @@ If you encounter a clear bug, please file a minimal reproducible example on [git
 
 API
 ---
+
+``` r
+library(queryr)
+raw_qry <- 
+"
+SELECT * 
+
+FROM SOME_TABLE
+
+WHERE CONDITION 
+
+GROUP BY VARIABLES;
+"
+
+remove_whitespace(raw_qry)
+#> [1] "SELECT * FROM SOME_TABLE WHERE CONDITION GROUP BY VARIABLES;"
+```
