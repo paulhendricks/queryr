@@ -13,7 +13,8 @@ remove_whitespace(.x)
 A character vector with excess white space removed.
 }
 \description{
-Remove excess white space from a character vector.
+Replaces consecutive whitespace, leading whitespace, trailing whitespace,
+and carriage returns with a single white space character.
 }
 \examples{
 remove_whitespace("  this is    too  much   white  space    ")

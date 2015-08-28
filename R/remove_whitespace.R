@@ -1,5 +1,8 @@
 #' Remove excess white space from a character vector.
 #'
+#' Replaces consecutive whitespace, leading whitespace, trailing whitespace,
+#' and carriage returns with a single white space character.
+#'
 #' @param .x a vector.
 #' @return A character vector with excess white space removed.
 #' @examples
