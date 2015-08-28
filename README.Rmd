@@ -17,7 +17,7 @@ knitr::opts_chunk$set(
 # queryr
 
 [![Build Status](https://travis-ci.org/paulhendricks/queryr.png?branch=master)](https://travis-ci.org/paulhendricks/queryr)
-[![Build status](https://ci.appveyor.com/api/projects/status/qu5j8q9wvit2i3pe/branch/master?svg=true)](https://ci.appveyor.com/project/paulhendricks/queryr/branch/master)
+[![Build status](https://ci.appveyor.com/api/projects/status/78uv9bj95a7a366c/branch/master?svg=true)](https://ci.appveyor.com/project/paulhendricks/queryr/branch/master)
 [![codecov.io](http://codecov.io/github/paulhendricks/queryr/coverage.svg?branch=master)](http://codecov.io/github/paulhendricks/queryr?branch=master)
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/queryr)](http://cran.r-project.org/package=queryr)
 [![Downloads from the RStudio CRAN mirror](http://cranlogs.r-pkg.org/badges/queryr)](http://cran.rstudio.com/package=queryr)
