@@ -2,7 +2,7 @@ library(queryr)
 context("remove_whitespace()")
 
 test_that("Produces the correct output.", {
-  expect_equal(remove_whitespace("  this is    too  much   white  space    "), "this is too much white space")
+  expect_equal(remove_whitespace("  this is  \n  too  much\t white \t\t  \n\n\n  space    "), "this is too much white space")
 })
 
 test_that("Produces the correct output type.", {

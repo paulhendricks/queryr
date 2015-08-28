@@ -14,7 +14,7 @@ A character vector with excess white space removed.
 }
 \description{
 Replaces consecutive whitespace, leading whitespace, trailing whitespace,
-and carriage returns with a single white space character.
+newlines, tabs, and carriage returns with a single white space character.
 }
 \examples{
 remove_whitespace("  this is    too  much   white  space    ")
