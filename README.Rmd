@@ -49,6 +49,7 @@ If you encounter a clear bug, please file a minimal reproducible example on [git
 ## API
 
 ```{r}
+library(dplyr, warn.conflicts = FALSE)
 library(queryr)
 raw_qry <- 
 "
@@ -61,6 +62,7 @@ WHERE CONDITION
 GROUP BY VARIABLES;
 "
 
-remove_whitespace(raw_qry)
+raw_qry %>% remove_whitespace
+raw_qry %>% remove_whitespace %>% remove_semicolon
 ```
 

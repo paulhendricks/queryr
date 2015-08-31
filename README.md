@@ -32,6 +32,7 @@ API
 ---
 
 ``` r
+library(dplyr, warn.conflicts = FALSE)
 library(queryr)
 raw_qry <- 
 "
@@ -44,6 +45,8 @@ WHERE CONDITION
 GROUP BY VARIABLES;
 "
 
-remove_whitespace(raw_qry)
+raw_qry %>% remove_whitespace
 #> [1] "SELECT * FROM SOME_TABLE WHERE CONDITION GROUP BY VARIABLES;"
+raw_qry %>% remove_whitespace %>% remove_semicolon
+#> [1] "SELECT * FROM SOME_TABLE WHERE CONDITION GROUP BY VARIABLES"
 ```
