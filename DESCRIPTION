@@ -1,7 +1,7 @@
 Package: queryr
-Title: Toolset for Querying SQL Databases from R
+Title: Tools for Querying SQL Databases from R
 Version: 0.0.0.9000
-Description: A toolset to aid in querying SQL databases through R by providing
+Description: Tools to aid in querying SQL databases through R by providing
     convenience functions for handling whitespace, generating queries, etc.
 Authors@R: person("Paul", "Hendricks", , "paul.hendricks.2013@owu.edu", c("aut", "cre"))
 URL: https://github.com/paulhendricks/queryr
