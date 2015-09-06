@@ -2,4 +2,4 @@
 
 ## Improvements
 
-* None.
+* Added functions to remove unneccessary white space and semicolons.
